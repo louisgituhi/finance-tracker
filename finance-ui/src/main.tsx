@@ -1,4 +1,5 @@
 import Root from "./routes/root";
+import AddExpense from "./routes/add-expense";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
@@ -11,7 +12,7 @@ import ErrorPage from "./error-page";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <AddExpense />,
     errorElement: <ErrorPage />
   },
 ]);

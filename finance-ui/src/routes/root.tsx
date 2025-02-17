@@ -9,7 +9,7 @@ function Root() {
   })
 
   return (
-    <pre>{ JSON.stringify(data, null, 2) }</pre>
+    <pre className=' font-inter'>{ JSON.stringify(data, null, 2) }</pre>
   )
 }
 
